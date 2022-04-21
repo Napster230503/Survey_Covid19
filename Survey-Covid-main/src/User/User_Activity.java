@@ -18,7 +18,7 @@ import History.*;
  *
  * @author LENOVO
  */
-//inheritance 
+//inheritance (turunan dari super class ke sub class)
 public class User_Activity extends javax.swing.JFrame {
         public static String NAME;
         public static int AGE = 0;

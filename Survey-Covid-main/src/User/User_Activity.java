@@ -283,10 +283,15 @@ public class User_Activity extends javax.swing.JFrame {
         GENDER = Gender_Combobox.getSelectedItem().toString();
         VACCINE = Vaccine_Combobox.getSelectedItem().toString();
 
+        //ARRAY LIST
         user.name_arr.add(NAME);
         user.age_arr.add(AGE);
         user.gender_arr.add(GENDER);
         user.vaccine_arr.add(VACCINE);
+        
+        //GETTER SETTER
+        //Get = ambil nilai variabel
+        //Set = mengisi data nilai ke atribut
         user.setName(NAME);
         user.setAge(AGE);
         user.setGender(GENDER);
